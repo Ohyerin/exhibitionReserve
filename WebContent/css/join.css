@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	padding:20px;
+}
+.containerjoin >h2 {
+	font-size:33px;
+	margin-top:90px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:15px;
+	padding-left:20px;
+	border-bottom:1px solid #7b7b7b;
+	line-height:1em;
+}
+.txtjoin {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.txtjoin >h3 {
+	margin-bottom:18px;
+	font-size:48px;
+	font-weight: 600;
+	color : #363636;
+	line-height:1em;
+}
+.txtjoin >p {
+	font-size: 10px;
+	color: black;
+}
+.joinbox {
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 8px;
+	padding: 30px;
+	width: 400px;	
+	margin:10px auto;
+}
+.joinbox fieldset {
+	border: 0px solid #ccc;
+	margin-bottom: 10px;
+}
+.joinbox legend {
+	font-size: 22px;
+	font-weight: bold;
+	padding-left:8px;
+	padding-bottom:5px;	
+}
+.joinbox p {
+	font-size: 5px;
+	margin-left: 6px;
+}
+.joinbox ul li {
+	line-height: 23px;
+	list-style: none;
+	padding: 3px 10px;
+	margin: 10px 0 5px 0px;
+}
+.joinbox button {	
+	border: 0px solid #222;
+	color: white;
+	width: 100%;
+	background-color: black;
+	border-radius: 8px;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin-top: 15px;
+	padding: 10px;
+}		
+.joinbox label {
+	float: left;  
+	font-size: 13px;  
+	width: 110px;  
+}
+.joinbox input[type=text], .joinbox input[type=password]{  /* 속성 선택자 사용 */
+	border: 1px solid #ccc;  
+	border-radius: 3px;  
+	font-size: 13px;  
+	padding: 5px;  
+	width: 300px;
+}
+.joinbox input[required] {  
+	border:1px red solid;  
+}
+
+
+
