@@ -13,7 +13,7 @@
 
 ## 구조
 
-![구조](https://user-images.githubusercontent.com/82960864/122053069-604f8980-ce21-11eb-981d-fd492e678884.jpg)
+![구조조](https://user-images.githubusercontent.com/82960864/122074035-d826af80-ce33-11eb-89e2-041c7b555495.jpg)
 1. 처음 사이트에 접속하면 메인화면인 index.jsp가 뜬다.
 2. login) loginController를 통해 login.jsp이동
 2-1. join) JoinController를 통해 join.jsp이동
